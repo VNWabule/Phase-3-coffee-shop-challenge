@@ -57,7 +57,7 @@ coffee-shop-challenge/
 - `Coffee.customers()`  
 - `Coffee.num_orders()`  
 - `Coffee.average_price()`  
-- `Customer.most_aficionado(coffee)` *(Bonus)*
+- `Customer.most_aficionado(coffee)`
 
 ---
 
@@ -72,7 +72,13 @@ coffee-shop-challenge/
    pipenv install
    pipenv shell
 
-3. **Run tests using pytest**
+3. **If you haven't already install pytest**
+   ```bash
+   pipenv install pytest
+
+4. **Run tests using pytest**
    ```bash
    pytest
+
+
 
